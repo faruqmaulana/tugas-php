@@ -28,7 +28,7 @@
                 <p>
                     <p>Segitiga Sama Sisi</p>
                     
-                    <form name="pp" action="newFormulir.php" method="POST">
+                    <form name="pp" action="index.php" method="POST">
 
                         <div class="input-group flex-nowrap mb-3">
                             <span class="input-group-text" id="addon-wrapping">Nama</span>
