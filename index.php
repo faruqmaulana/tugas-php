@@ -85,7 +85,7 @@
             <pre style="border: 1px dashed; border-color:#81e6d9; padding-left: 10px;">
             <?php
                $judul = "Kelas MI 2020";
-               $nama=$_POST['nama'];
+               $nama = htmlspecialchars($_POST['nama']);
                $sisi=$_POST['sisi'];
                $alas= $_POST['alas'];
                $tinggi= $_POST['tinggi'];
