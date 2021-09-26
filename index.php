@@ -93,7 +93,7 @@
                $luas = 1/2 * $alas * $tinggi;
                 if ($sisi and $alas and $tinggi and $nama) {
                     echo $judul."<br>";
-                    echo "<br> Halo, $nama";
+                    echo "<br>Halo, $nama";
                     echo "<br>Keliling Segitiga = $sisi + $sisi + $alas = ".$kell;
                     echo "<br>Luas Segitiga = 1/2 * $alas * $tinggi = ".$luas;     
                     echo "<br>Warna = ".$_POST['col'];
