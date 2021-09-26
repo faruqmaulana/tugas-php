@@ -89,13 +89,12 @@
                $sisi=$_POST['sisi'];
                $alas= $_POST['alas'];
                $tinggi= $_POST['tinggi'];
-               $sisii = $sisi/2;
-               $kell=  $sisii + $sisii + $alas;
+               $kell=  $sisi + $sisi + $alas;
                $luas = 1/2 * $alas * $tinggi;
                 if ($sisi and $alas and $tinggi and $nama) {
                     echo $judul."<br>";
                     echo "<br> Halo, $nama";
-                    echo "<br>Keliling Segitiga = $sisii + $sisii + $alas = ".$kell;
+                    echo "<br>Keliling Segitiga = $sisi + $sisi + $alas = ".$kell;
                     echo "<br>Luas Segitiga = 1/2 * $alas * $tinggi = ".$luas;     
                     echo "<br>Warna = ".$_POST['col'];
                     echo "<br>Tanggal = ".$_POST['tgl'];
